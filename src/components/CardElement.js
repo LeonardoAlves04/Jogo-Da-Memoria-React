@@ -1,8 +1,8 @@
 import React from "react";
 
-function CardElement() {
+export default function CardElement(props) {
   return (
-    <div id={props.card.id} className="card">
+    <div id={props.card.id} className="card flip">
       <div className="card-front">
         <img
           className="icon"
@@ -11,8 +11,7 @@ function CardElement() {
         ></img>
       </div>
 
-      <div className="card-back"></div>
-      {"</>"}
+      <div className="card-back">{"</>"}</div>
     </div>
   );
 }
