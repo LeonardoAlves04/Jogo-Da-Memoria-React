@@ -21,7 +21,7 @@ transform-style: preserve-3d;
 transition: transform .5s;
 }
 
-.card-back, .card-front{
+.card_back, .card_front{
 width: 100%;
 height: 100%;
 position: absolute;
@@ -37,12 +37,12 @@ backface-visibility: hidden;
     transform: rotateY(180deg);
 }
 
-.card-front{
+.card_front{
     transform: rotateY(180deg);
    background-color: #2F4F4F; 
 }
 
-.card-back{
+.card_back{
     color:#B0E0E6 ;
     background-color: #696969;
     font-size: 30px; 

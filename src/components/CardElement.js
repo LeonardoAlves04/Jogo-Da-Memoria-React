@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function CardElement(props) {
+function CardElement(props) {
   return (
     <div id={props.card.id} className="card flip">
-      <div className="card-front">
+      <div className="card_front">
         <img
           className="icon"
           src={`assets/images/${props.card.icon}.png`}
@@ -11,7 +11,9 @@ export default function CardElement(props) {
         ></img>
       </div>
 
-      <div className="card-back">{"</>"}</div>
+      <div className="card_back">{"</>"}</div>
     </div>
   );
 }
+
+export default CardElement;

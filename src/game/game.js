@@ -107,10 +107,4 @@ let game = {
   },
 };
 
-function restart() {
-  game.clearCards();
-  let gameOverLayer = document.getElementById("gameOver");
-  gameOverLayer.style.display = "none";
-}
-
 export default game;

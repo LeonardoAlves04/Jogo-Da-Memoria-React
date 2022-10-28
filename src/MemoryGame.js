@@ -3,13 +3,14 @@ import GameBoard from "./components/GameBoard";
 import GameOver from "./components/GameOver";
 import game from "./game/game";
 
-export default function MemoryGame() {
+function MemoryGame() {
   const [gameOver, setGameOver] = useState(false);
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
     setCards(game.createCardsFromTechs(game.createCardsFromTechs()));
   }, []);
+
   function restart() {
     setGameOver(false);
   }
@@ -21,3 +22,5 @@ export default function MemoryGame() {
     </div>
   );
 }
+
+export default MemoryGame;
