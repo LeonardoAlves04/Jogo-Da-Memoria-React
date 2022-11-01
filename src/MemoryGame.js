@@ -12,34 +12,32 @@ function MemoryGame() {
   }, []);
 
   function restart() {
+    game.clearCards();
+    setCards(game.createCardsFromTechs());
     setGameOver(false);
   }
 
   function handleFlip(card) {
-      if (game.setCard(card.id)) {
-        if (game.secondCard) {
-            if (game.checkMatch()) {
-                game.clearCards();
-                if (game.checkGameOver()) {
-                }
-            } else {
-                setTimeout(() => {
-                    game.unflipCards();
-                    setCards([...game.cards])
-                }, 1000);
- 
-            };
-        } 
-    }
-      setCards([...game.cards])
-    } 
+    game.flipCard(
+      card.id,
+      () => {
+        // GameOverCallBack
+        setGameOver(true);
+      },
+      () => {
+        // NoMatchCallback
+        setCards([...game.cards]);
+      }
+    );
+    setCards([...game.cards]);
+  }
 
   return (
     <div>
       <GameBoard handleFlip={handleFlip} cards={cards}></GameBoard>
       <GameOver show={gameOver} handleRestart={restart}></GameOver>
     </div>
-  )
+  );
 }
 
 export default MemoryGame;

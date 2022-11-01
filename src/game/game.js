@@ -56,7 +56,7 @@ let game = {
   },
 
   checkGameOver() {
-    return this.cards.filter((card) => !card.flipped).length === 0;
+    return this.cards.filter(card => !card.flipped).length === 0;
   },
 
   createCardsFromTechs: function () {
@@ -105,6 +105,26 @@ let game = {
       ];
     }
   },
-};
+
+  flipCard: function (cardId, gameOverCallBack, noMatchCallback) {
+     if (this.setCard(cardId)) {
+         if (this.secondCard) {
+            if (this.checkMatch()) {
+                this.clearCards();
+                if (this.checkGameOver()) {
+            // GameOver
+            gameOverCallBack()
+          } 
+        } else {
+            setTimeout(() => {
+              // NoMatch
+              this.unflipCards();
+              noMatchCallback();
+            }, 1000);
+          }
+        }
+      }
+    }
+}
 
 export default game;
