@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jogo-memoria/static/css/main.885c7996.css",
-    "main.js": "/jogo-memoria/static/js/main.e4a3ca24.js",
-    "static/js/787.886617a2.chunk.js": "/jogo-memoria/static/js/787.886617a2.chunk.js",
-    "index.html": "/jogo-memoria/index.html",
-    "main.885c7996.css.map": "/jogo-memoria/static/css/main.885c7996.css.map",
-    "main.e4a3ca24.js.map": "/jogo-memoria/static/js/main.e4a3ca24.js.map",
-    "787.886617a2.chunk.js.map": "/jogo-memoria/static/js/787.886617a2.chunk.js.map"
+    "main.css": "/Jogo-Da-Memoria-React/static/css/main.885c7996.css",
+    "main.js": "/Jogo-Da-Memoria-React/static/js/main.3a78f1c6.js",
+    "static/js/787.886617a2.chunk.js": "/Jogo-Da-Memoria-React/static/js/787.886617a2.chunk.js",
+    "index.html": "/Jogo-Da-Memoria-React/index.html",
+    "main.885c7996.css.map": "/Jogo-Da-Memoria-React/static/css/main.885c7996.css.map",
+    "main.3a78f1c6.js.map": "/Jogo-Da-Memoria-React/static/js/main.3a78f1c6.js.map",
+    "787.886617a2.chunk.js.map": "/Jogo-Da-Memoria-React/static/js/787.886617a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.885c7996.css",
-    "static/js/main.e4a3ca24.js"
+    "static/js/main.3a78f1c6.js"
   ]
 }
