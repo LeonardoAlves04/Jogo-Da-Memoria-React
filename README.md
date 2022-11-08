@@ -10,6 +10,12 @@ https://leonardoalves04.github.io/Jogo-Da-Memoria-React/
 
 Assim que o jogo começa:
 
+![Captura de Tela (46)](https://user-images.githubusercontent.com/69488943/200541683-e9dc0ae9-9721-42d1-b06b-0209579250b8.png)
+
 Formando alguns pares:
 
+![Captura de Tela (44)](https://user-images.githubusercontent.com/69488943/200541051-c337daa0-e2c1-433e-ad25-e2b32370ef4e.png)
+
 Game over e Play again:
+
+![Captura de Tela (45)](https://user-images.githubusercontent.com/69488943/200541142-56bf5640-3e8e-49ca-af74-bed1b31b081e.png)
