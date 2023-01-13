@@ -4,7 +4,7 @@ Trago dessa vez um projeto de um jogo da memória feito em React, já tinha post
 
 # Link para você jogar e ver o projeto: 
 
-jogo-da-memoria-react-pi.vercel.app
+[jogo-da-memoria-react-pi.vercel.app](https://jogo-da-memoria-react-8rtdg0cqq-leonardoalves04.vercel.app)
 
 # Imagens do projeto:
 
