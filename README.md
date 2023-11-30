@@ -33,7 +33,7 @@ O bom e velho jogo da memória, um projeto para aprender mais sobre states e sob
 
 ## Deploy da Aplicação :dash:
 
-(https://jogo-da-memoria-react-8rtdg0cqq-leonardoalves04.vercel.app)
+https://jogo-da-memoria-react-8rtdg0cqq-leonardoalves04.vercel.app
 
 ## Linguagens e libs utilizadas :books:
 
